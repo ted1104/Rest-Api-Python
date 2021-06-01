@@ -7,3 +7,8 @@ PYTHON REST API BEGINER VERSION
  -  vagrant ssh : to connect to this local virtual machine created
 
  Attention :: All files created in **cd /vagrant** in the virtual server is sync to our folder structure
+
+3. CREATE PYTHON VIRTUAL ENV
+ - in cd /vagrant tap command : python -m venv ~/env : to create virtual env that is sync to vagrant folder in the server that also is sync to local folder
+ - source ~/env/bin/activate : to activate virtual environment with name *env*
+ - deactivate : to desactivate
