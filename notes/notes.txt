@@ -12,3 +12,15 @@ PYTHON REST API BEGINER VERSION
  - in cd /vagrant tap command : python -m venv ~/env : to create virtual env that is sync to vagrant folder in the server that also is sync to local folder
  - source ~/env/bin/activate : to activate virtual environment with name *env*
  - deactivate : to desactivate
+
+ 4. INSTALLING REQUIREMENT PACKAGE
+
+ - create file is name requirement.txt : put all into
+ - command : pip install -r requirement.txt
+
+ 5. CREATE A NEW DJANGO PROJECT
+
+ In the server folder /vagrant, in the environement virtual **env** run command
+ - django-admin.py startproject [name_project] . : this create project in env selected a la racine du folder
+ After creating this project folder we need now to use manage.py
+ - pyton manage.py startapp profiles_api : to generate now project structure
