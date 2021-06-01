@@ -24,3 +24,7 @@ PYTHON REST API BEGINER VERSION
  - django-admin.py startproject [name_project] . : this create project in env selected a la racine du folder
  After creating this project folder we need now to use manage.py
  - pyton manage.py startapp profiles_api : to generate now project structure
+
+ 6. TEST APP
+
+ - pyhon manage.py runserver 0.0.0.0:8000 : le port 8000 on l'a renseigner dans vagrantfile : this commnad to generate a test and see if everything is configurate correctly
