@@ -1,0 +1,3 @@
+PYTHON REST API BEGINER VERSION
+
+1. creation vagrant file with command : vagrant init ubuntu/bionic64
