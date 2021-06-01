@@ -1,3 +1,7 @@
 PYTHON REST API BEGINER VERSION
 
 1. creation vagrant file with command : vagrant init ubuntu/bionic64
+2. CONNECTING TO SERVER
+ -  vagrant up : to downolad the specific system that is refering in vagrant file and using the same moment virtual box to create a virtual machine
+ -  exit : to exit local machine
+ -  vagrant ssh : to connect to this local virtual machine created
