@@ -5,3 +5,5 @@ PYTHON REST API BEGINER VERSION
  -  vagrant up : to downolad the specific system that is refering in vagrant file and using the same moment virtual box to create a virtual machine
  -  exit : to exit local machine
  -  vagrant ssh : to connect to this local virtual machine created
+
+ Attention :: All files created in **cd /vagrant** in the virtual server is sync to our folder structure
